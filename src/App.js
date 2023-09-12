@@ -5,12 +5,13 @@ const App = () => {
 
   return (
     <div className='App'>
-      <BrowserRouter>
+      <Home/>
+      {/* <BrowserRouter>
         <Routes>
           <Route path='/' exact Component={<Home />} />
           <Route path='about' Component={<About/>} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
       </div>
   );
 }
