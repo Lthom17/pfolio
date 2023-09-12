@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material";
-import { makeStyles } from "@mui/material/core/styles"
+import { makeStyles } from "@mui/material"
 
 const useStyles = makeStyles(() => ({
     header: {
