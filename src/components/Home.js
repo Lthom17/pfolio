@@ -1,6 +1,16 @@
+import { Banner } from "./Banner";
+
 function Home() {
     return (
-        <div>This is home page</div>
+        <div>
+            <Banner/>
+        </div>
+        // banner with nav
+
+        // about me
+        // projects
+        // blog
+
     )
 }
 export default Home;
