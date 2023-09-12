@@ -1,9 +1,10 @@
-import {MDCBanner} from '@material/banner';
+import '@material/banner/styles';
+import { MDCBanner } from '@material/banner';
 const banner = new MDCBanner(document.querySelector('.mdc-banner'));
 
 
-export function Banner() {
 
+export function Banner() {
     return (
         <div class="mdc-banner" role="banner">
   <div class="mdc-banner__fixed">
